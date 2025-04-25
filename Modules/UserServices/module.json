@@ -1,0 +1,11 @@
+{
+    "name": "UserServices",
+    "alias": "userservices",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserServices\\Providers\\UserServicesServiceProvider"
+    ],
+    "files": []
+}

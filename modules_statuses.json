@@ -1,0 +1,7 @@
+{
+    "UserServices": false,
+    "ProductServices": false,
+    "OrderServices": false,
+    "CartServices": false,
+    "PaymentServices": false
+}

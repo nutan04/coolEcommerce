@@ -1,0 +1,11 @@
+{
+    "name": "CartServices",
+    "alias": "cartservices",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CartServices\\Providers\\CartServicesServiceProvider"
+    ],
+    "files": []
+}

@@ -20,7 +20,23 @@ class RouteServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Route::middleware('api')
-            ->prefix('admin-api') // <-- URL will start with /admin-api
-            ->group(base_path('routes/api-admin.php'));
+            ->prefix('user') // <-- URL will start with user
+            ->group(base_path('routes/api-user.php'));
+
+        Route::middleware('api')
+            ->prefix('cart')
+            ->group(base_path('routes/api-cart.php'));
+
+        Route::middleware('api')
+            ->prefix('order')
+            ->group(base_path('routes/api-order.php'));
+
+        Route::middleware('api')
+            ->prefix('payment')
+            ->group(base_path('routes/api-payment.php'));
+
+        Route::middleware('api')
+            ->prefix('product')
+            ->group(base_path('routes/api-product.php'));
     }
 }

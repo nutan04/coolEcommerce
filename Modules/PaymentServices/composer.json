@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/paymentservices",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PaymentServices\\": "app/",
+            "Modules\\PaymentServices\\Database\\Factories\\": "database/factories/",
+            "Modules\\PaymentServices\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PaymentServices\\Tests\\": "tests/"
+        }
+    }
+}
